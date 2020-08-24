@@ -1,0 +1,1555 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@charset "UTF-8";
+
+/*GLOBAL CSS KEY*/
+/*
+vaimo overrides
+slick slider
+grabbing cursor
+misc
+hotspot
+product widget
+cta, price point, badge
+text
+layout spacing
+background
+*/
+
+/*vaimo overrides*/
+
+:root {
+  --primary-color: #abbdd3;
+  --dark-color: #cdab79;
+}
+
+
+
+
+
+.m-1 {
+  margin: 1rem !important;
+}
+
+.m-2 {
+  margin: 1rem !important;
+}
+
+.m-3 {
+  margin: 1rem !important;
+}
+
+.m-4 {
+  margin: 1rem !important;
+}
+
+.m-5 {
+  margin: 1rem;
+}
+
+
+.my-1 {
+  margin: auto 1rem !important;
+}
+
+.my-2 {
+  margin: auto 2rem !important;
+}
+
+.my-3 {
+  margin: auto 3rem !important;
+}
+
+.my-4 {
+  margin: auto 4rem !important;
+}
+
+.my-5 {
+  margin: auto 5rem !important;
+}
+
+
+.mx-1 {
+  margin: 1rem auto !important;
+}
+
+.mx-2 {
+  margin: 2rem auto !important;
+}
+
+.mx-3 {
+  margin: 3rem auto !important;
+}
+
+.mx-4 {
+  margin: 4rem auto !important;
+}
+
+.mx-5 {
+  margin: 5rem auto !important;
+}
+
+
+.ml-1 {
+  margin-left: 1rem !important;
+}
+
+.ml-2 {
+  margin-left: 2rem !important;
+}
+
+.ml-3 {
+  margin-left: 3rem !important;
+}
+
+.ml-4 {
+  margin-left: 4rem !important;
+}
+
+.ml-5 {
+  margin-left: 5rem !important;
+}
+
+
+.mr-1 {
+  margin-right: 1rem !important;
+}
+
+.mr-2 {
+  margin-right: 2rem !important;
+}
+
+.mr-3 {
+  margin-right: 3rem !important;
+}
+
+.mr-4 {
+  margin-right: 4rem !important;
+}
+
+.mr-5 {
+  margin-right: 5rem !important;
+}
+
+
+
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.mt-3 {
+  margin-top: 3rem !important;
+}
+
+.mt-4 {
+  margin-top: 4rem !important;
+}
+
+.mt-5 {
+  margin-top: 5rem !important;
+}
+
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 5rem !important;
+}
+
+
+
+
+
+/* padding  */
+
+
+.p-1 {
+  padding: 1rem !important;
+}
+
+.p-2 {
+  padding: 1rem !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.p-4 {
+  padding: 1rem !important;
+}
+
+.p-5 {
+  padding: 1rem !important;
+}
+
+
+.py-1 {
+  padding: 0 1rem !important;
+}
+
+.py-2 {
+  padding: 0 2rem !important;
+}
+
+.py-3 {
+  padding: 0 3rem !important;
+}
+
+.py-4 {
+  padding: 0 4rem !important;
+}
+
+.py-5 {
+  padding: 0 5rem !important;
+}
+
+
+.px-1 {
+  padding: 1rem 0 !important;
+}
+
+.px-2 {
+  padding: 2rem 0 !important;
+}
+
+.px-3 {
+  padding: 3rem 0 !important;
+}
+
+.px-4 {
+  padding: 4rem 0 !important;
+}
+
+.px-5 {
+  padding: 5rem 0 !important;
+}
+
+
+.pl-1 {
+  padding-left: 1rem !important;
+}
+
+.pl-2 {
+  padding-left: 2rem !important;
+}
+
+.pl-3 {
+  padding-left: 3rem !important;
+}
+
+.pl-4 {
+  padding-left: 4rem !important;
+}
+
+.pl-5 {
+  padding-left: 5rem !important;
+}
+
+
+.pr-1 {
+  padding-right: 1rem !important;
+}
+
+.pr-2 {
+  padding-right: 2rem !important;
+}
+
+.pr-3 {
+  padding-right: 3rem !important;
+}
+
+.pr-4 {
+  padding-right: 4rem !important;
+}
+
+.pr-5 {
+  padding-right: 5rem !important;
+}
+
+
+
+.pt-1 {
+  padding-top: 1rem !important;
+}
+
+.pt-2 {
+  padding-top: 2rem !important;
+}
+
+.pt-3 {
+  padding-top: 3rem !important;
+}
+
+.pt-4 {
+  padding-top: 4rem !important;
+}
+
+.pt-5 {
+  padding-top: 5rem !important;
+}
+
+
+.pb-1 {
+  padding-bottom: 1rem !important;
+}
+
+.pb-2 {
+  padding-bottom: 2rem !important;
+}
+
+.pb-3 {
+  padding-bottom: 3rem !important;
+}
+
+.pb-4 {
+  padding-bottom: 4rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 5rem !important;
+}
+
+
+
+.vaimo-cms>[class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+header#header {
+  margin-left: -15px;
+}
+
+.LandingPageContent img {
+  margin: auto;
+}
+
+.LandingPageContent .primary-color {
+  color: var(--primary-color);
+}
+
+
+
+.catalog-category-view .selected-products-head hr {
+  display: none;
+}
+
+.main-container {
+  display: none;
+}
+
+.catalog-category-view .vaimo-cms .widget-static-block {
+  margin-bottom: 0 !important;
+}
+
+.LandingPageContent .aspot,
+.LandingPageContent .bspot,
+.LandingPageContent .cspot {
+  overflow: hidden;
+}
+
+/*slick slider*/
+.sliderA {
+  visibility: hidden;
+  margin-bottom: 0 !important;
+}
+
+.sliderA.slick-initialized {
+  visibility: visible;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  padding-bottom: 0;
+}
+
+.LandingPageContent .slick-dots {
+  bottom: 0px;
+}
+
+.LandingPageContent .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.LandingPageContent .slick-dots li button {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+}
+
+.LandingPageContent .slick-dots li.slick-active button {
+  background-color: #000;
+}
+
+.LandingPageContent .slick-dots li button:before {
+  content: none !important;
+}
+
+/*grabbing cursor*/
+.sliderA:hover,
+.sliderA a:hover {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+.sliderA.grabbing,
+.sliderA.grabbing a {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+}
+
+/*misc*/
+.LandingPageContent {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.noPaddMyChild>[class*="col-"],
+.noPaddOnElement {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.LandingPageContent .aspectHack {
+  width: 100%;
+}
+
+.LandingPageContent .relative {
+  position: relative;
+}
+
+/*hotspot*/
+.LandingPageContent .hotspot {
+  display: inline-block;
+  top: 0;
+}
+
+.LandingPageContent .hotspot.lhs {
+  width: 32%;
+}
+
+.LandingPageContent .hotspot.rhs {
+  width: 32%;
+  right: 0;
+  left: auto;
+}
+
+/*cta, price point, badge*/
+.LandingPageContent a {
+  text-decoration: none;
+}
+
+.LandingPageContent .btn {
+  margin: auto;
+  text-decoration: none;
+  font-family: "Inter UI", sans-serif;
+  font-size: 1.2rem;
+  padding: 6px 0;
+  width: 180px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 5px;
+  border-radius: 0px;
+  margin-left: 1rem;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.LandingPageContent .mrp-btn-white-bdr {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  cursor: pointer !important;
+}
+
+.LandingPageContent .mrp-btn-RED-bdr {
+  background-color: #fff;
+  color: #000;
+  border: #fff 1px solid;
+  margin: 2rem auto;
+}
+
+.LandingPageContent .mrp-btn-RED-bdr:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.LandingPageContent .mrp-btn-white-bdr:hover {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: #000;
+  cursor: pointer !important;
+}
+
+.LandingPageContent .mrp-btn-black-bdr {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer !important;
+}
+
+.LandingPageContent .mrp-btn-black-bdr:hover {
+  text-decoration: none;
+  background-color: #000;
+  color: var(--primary-color);
+  cursor: pointer !important;
+}
+
+.LandingPageContent .pricePoint {
+  text-align: left;
+}
+
+.LandingPageContent .pricePoint .redText {
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.LandingPageContent .pricePoint .redText sup {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.LandingPageContent .round-btn {
+  border-radius: 50%;
+  font-size: 12px !important;
+  width: 70px;
+  height: 70px;
+  padding: 23px 0 0;
+  line-height: 13px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  color: var(--primary-color);
+  background-color: #000;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .LandingPageContent .round-btn {
+    font-size: 10px !important;
+    line-height: 13px;
+    padding: 17px 0 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+/*text*/
+.LandingPageContent h1,
+.LandingPageContent h2,
+.LandingPageContent h3,
+.LandingPageContent h4,
+.LandingPageContent h5,
+.LandingPageContent h6,
+.LandingPageContent a,
+.LandingPageContent p {
+  font-family: "Inter UI", sans-serif;
+}
+
+.LandingPageContent h1 {
+  font-weight: 700;
+  font-family: 'Druk Text Wide Web';
+  color: #fff;
+  font-style: normal;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.LandingPageContent h2 {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-style: normal;
+  font-size: 88px;
+  line-height: 85px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.LandingPageContent h2 sup {
+  font-size: 58%;
+}
+
+.LandingPageContent h3 {
+  font-weight: 700;
+  color: #FFF;
+  font-style: normal;
+  font-size: 3.8rem;
+  line-height: 29px;
+  margin-bottom: 0;
+}
+
+.LandingPageContent h4 {
+  font-size: 30px;
+  line-height: 29px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.LandingPageContent h5 {
+  font-size: 33px;
+  line-height: 1.1;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.LandingPageContent h5.white {
+  color: var(--primary-color);
+}
+
+.LandingPageContent h5 sup {
+  font-size: 61%;
+}
+
+.LandingPageContent p {
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.2vw;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.LandingPageContent .lightText {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: -10px;
+}
+
+.LandingPageContent .redText {
+  color: var(--primary-color);
+  letter-spacing: -1px;
+}
+
+.LandingPageContent .whiteText {
+  color: #fff !important;
+}
+
+/*layout spacing*/
+.LandingPageContent .margTopBig {
+  margin-top: 83px;
+}
+
+.LandingPageContent .margTopSml {
+  margin-top: 30px;
+}
+
+.LandingPageContent .margTopXtrSml {
+  margin-top: 15px;
+}
+
+/*background*/
+.LandingPageContent .bgWrapper {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*hover wrapper*/
+.LandingPageContent .hoverWrapper {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+}
+
+
+
+
+/*product widget*/
+.LandingPageContent #prodigotnothing {
+  margin-top: 0;
+}
+
+.LandingPageContent #prodigotnothing h2 {
+  display: none;
+}
+
+.LandingPageContent #prodigotnothing .button {
+  margin-top: -3px;
+}
+
+.LandingPageContent #prodigotnothing .button span {
+  margin: auto;
+  text-decoration: none;
+  font-family: "Inter UI", sans-serif;
+  font-size: 14px;
+  padding: 8px 0;
+  width: 160px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.LandingPageContent #prodigotnothing .brand-text {
+  line-height: normal;
+  text-transform: uppercase;
+  bottom: -6px;
+  position: relative;
+  font-family: "Inter UI", sans-serif;
+  font-weight: 500;
+}
+
+.LandingPageContent #prodigotnothing .product-name {
+  margin: -1px 0 10px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  font-family: "Inter UI", sans-serif;
+}
+
+.LandingPageContent #prodigotnothing .products-grid .price {
+  font-family: "Inter UI", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.LandingPageContent #prodigotnothing .owl-theme .owl-dots {
+  margin-top: 0px;
+  margin-bottom: -5px;
+}
+
+.LandingPageContent .embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.LandingPageContent .embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+.LandingPageContent img {
+  width: 100%;
+}
+
+.LandingPageContent .text-p {
+  color: var(--primary-color);
+}
+
+/* Aspot */
+.LandingPageContent .Aspot {
+  width: 100%;
+  position: relative;
+}
+
+.LandingPageContent .Aspot .Aspot-content {
+  position: absolute;
+  top: 35%;
+  left: 36.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 16%;
+  margin: 0;
+
+}
+
+.LandingPageContent .Aspot .Aspot-1-content {
+  position: absolute;
+  top: 63%;
+  left: 11%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 22%;
+  margin: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+/*aspot*/
+.LandingPageContent .Cspot img.hidden-xs.left-img-bottom {
+  width: 64.9%;
+  display: block;
+}
+
+.LandingPageContent .Cspot img.hidden-xs.right-img-bottom {
+  width: 90%;
+  display: block;
+  float: left;
+}
+
+.LandingPageContent .Cspot img.heading-one {
+  width: 1.8% !important;
+  position: absolute;
+  top: 16%;
+  right: 0;
+  left: -67%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.LandingPageContent .Cspot img.heading-two {
+  width: 1.8%;
+  position: absolute;
+  top: 59%;
+  right: -67%;
+  left: 0;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.LandingPageContent .Fspot .mrp-btn-RED-bdr.btn,
+.LandingPageContent .Espot .mrp-btn-RED-bdr.btn,
+.LandingPageContent .Cspot .mrp-btn-RED-bdr.btn {
+  background-color: transparent;
+  color: #000;
+  border: #000 1px solid;
+}
+
+.LandingPageContent .Fspot .mrp-btn-RED-bdr.btn:hover,
+.LandingPageContent .Espot .mrp-btn-RED-bdr.btn:hover,
+.LandingPageContent .Cspot .mrp-btn-RED-bdr.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.LandingPageContent .BlockSlider .slick-slide {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+/* Cspot */
+
+.LandingPageContent .Cspot {
+  width: 100%;
+  position: relative;
+}
+
+.LandingPageContent .Cspot img.heading {
+  width: 80%;
+}
+
+
+.LandingPageContent .Cspot .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-top: 0;
+}
+
+.LandingPageContent .Cspot .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.LandingPageContent .Cspot .enter_box {
+
+  background-color: #FBE4E2;
+  position: relative;
+  height: 21rem;
+  /* background: #efefef; */
+}
+
+.LandingPageContent .Cspot .enter_box .col-xs-12 {
+  padding: 0;
+}
+
+.LandingPageContent .Cspot .Formslider {
+
+  position: relative;
+  background: #fbe4e2;
+  color: #fff;
+  -webkit-transition: 1s all ease-in-out;
+  -o-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+  padding: 0
+}
+
+
+.LandingPageContent .Cspot .height {
+  height: 76vh;
+  /* margin-bottom: 22rem; */
+  /* transition: height 1s ease-in-out, left 1.5s ease-in-out; */
+  /* position: relative; */
+
+  -webkit-transition: 1s all ease-in-out;
+  -o-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+  background-color: #FBE4E2;
+}
+
+.LandingPageContent .Cspot .enter_box img {
+  padding: 2rem 0;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.LandingPageContent .Cspot div#stage3 img {
+  width: 45%;
+}
+
+.LandingPageContent .Cspot .enter_box a.mrp-btn-RED-bdr.btn {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+  margin: 0rem auto 2rem;
+  /* -webkit-transition: 1s all ease-in-out;
+  -moz-transition: 1s all ease-in-out;
+  -o-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out; */
+}
+
+.LandingPageContent .Cspot .enter_box a.mrp-btn-RED-bdr.btn:hover {
+  background-color: #000;
+  color: #FBE4E2;
+  border-color: #000;
+  margin: 0rem auto 2rem;
+}
+
+.image-hover {
+  overflow: hidden;
+}
+
+.image {
+  margin: 0 !important;
+  border: 0;
+}
+
+.zoom {
+
+  -webkit-filter: gray;
+
+  filter: gray;
+
+  -webkit-transition: all .8s ease-in-out;
+  -webkit-filter: grayscale(0);
+
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.zoom:hover {
+
+
+  filter: none;
+  -webkit-filter: grayscale(1);
+
+  -webkit-transform: scale(1.01);
+}
+
+
+#stage3 {
+  position: relative;
+  text-align: right
+}
+
+
+#box4 {
+  position: relative;
+  height: 0px;
+  background: #FBE4E2;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: 1s all ease-in-out;
+  -moz-transition: 1s all ease-in-out;
+  -o-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out
+}
+
+.box4-height {
+  opacity: 1 !important;
+  margin-bottom: 2rem;
+}
+
+
+.show {
+  visibility: visible !important;
+}
+
+.box4-height {
+  height: 64rem !important;
+}
+
+.popUp {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+  visibility: hidden;
+  -webkit-transform: translate3d(0, -20%, 0);
+  transform: translate3d(0, -20%, 0);
+  -webkit-transition: all 1.3s ease-in;
+  -o-transition: all 1.3s ease-in;
+  transition: all 1.3s ease-in;
+  z-index: 2;
+}
+
+
+
+.LandingPageContent .Cspot section#popUp p span {
+  display: block;
+}
+
+
+.popUp.show {
+
+  -webkit-transform: translate3d(0, 0, 0);
+
+  transform: translate3d(0, 0, 0);
+
+
+}
+
+.popUp .popUp-body {
+
+  /* margin-top: 22rem; */
+
+}
+
+
+.LandingPageContent .heading img {
+  width: 45%;
+}
+
+
+.LandingPageContent img.heading2 {
+  width: 40%;
+}
+
+.LandingPageContent .small-img {
+  width: 93%;
+}
+
+
+.LandingPageContent .Cspot p {
+  color: #000;
+  width: 94%;
+  margin: 1rem auto;
+}
+
+.LandingPageContent .Cspot section#popUp p {
+  text-align: center;
+  width: 50%;
+  font-size: 1vw;
+  line-height: 1.2;
+}
+
+.LandingPageContent .Cspot p.smallText.mt-2 {
+  font-size: 0.8vw !important;
+  font-weight: 400;
+  width: auto !important;
+  font-style: italic;
+}
+
+.LandingPageContent .Dspot {
+  background-color: var(--dark-color);
+  width: 100%;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.LandingPageContent .Dspot .BottomSlider .links {
+  color: #fff;
+  margin-top: 4%;
+  text-decoration: underline;
+  font-weight: 500;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.LandingPageContent .Dspot .BottomSlider .links:hover {
+
+  text-decoration: none;
+}
+
+.LandingPageContent .Dspot .BottomSlider img {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+  #candid-overlay .candid-prev,
+  #candid-overlay .candid-next {
+    margin-top: 25px;
+  }
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 2000px) {
+
+  .LandingPageContent .btn {
+
+    font-size: 1.8rem;
+    width: 250px;
+
+  }
+
+  .LandingPageContent .Cspot section#popUp p {
+    width: 60%;
+
+  }
+
+  /* 
+  .box4-height {
+    height: 56vh !important;
+  } */
+
+  #stage3 {
+
+    margin-top: -1rem;
+  }
+
+  .LandingPageContent .Espot .right-img-bottom {
+    margin-top: -24%;
+    width: 75%;
+    float: left;
+  }
+
+}
+
+@media (max-width: 1800px) {
+
+
+
+
+  textarea.text.formboxes {
+    width: 63%;
+    height: 7.2vw;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 1600px) {
+
+  .box4-height {
+    height: 59rem !important;
+  }
+
+  .formboxes {
+    height: 2.5vw !important;
+  }
+
+  textarea.text.formboxes {
+    height: 7.2vw !important;
+  }
+
+  .LandingPageContent .Cspot img.heading {
+    width: 68%;
+  }
+
+  .LandingPageContent .Cspot p {
+    width: 60%;
+    margin: 1rem auto;
+  }
+
+
+
+  .LandingPageContent .Cspot section#popUp p {
+    font-size: 1.4vw;
+  }
+
+  .LandingPageContent .Cspot p.smallText.mt-2 {
+    font-size: 1vw !important;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  .LandingPageContent .btn {
+    width: 14vw;
+
+  }
+
+  .formboxes {
+    height: 3vw !important;
+  }
+
+  textarea.text.formboxes {
+    height: 9.2vw !important;
+  }
+
+  /* .LandingPageContent .Cspot .videoWrapper {
+    margin-top: 29rem;
+  } */
+
+  .LandingPageContent .Espot .container {
+    width: 70%;
+    padding-top: 4rem !important;
+  }
+
+  .LandingPageContent .Espot {
+    background-size: 114%;
+
+  }
+
+  .LandingPageContent h1 {
+    font-size: 3.5vw;
+    line-height: 3vw;
+
+  }
+
+  .LandingPageContent p {
+    font-size: 1.6vw;
+
+  }
+
+  .LandingPageContent .Cspot img.heading-one,
+  .LandingPageContent .Cspot img.heading-two {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1199px) {
+
+  .LandingPageContent .btn {
+    width: 18vw;
+  }
+
+
+  .formboxes {
+    height: 3.8vw !important;
+  }
+
+  .LandingPageContent .small-img {
+    width: 98%;
+  }
+
+  .LandingPageContent .Cspot p {
+    width: 74%;
+    margin: 2rem auto 0;
+  }
+
+  textarea.text.formboxes {
+    height: 12.2vw !important;
+  }
+
+  .LandingPageContent .Cspot img.heading {
+    width: 58%;
+    margin-top: -42px;
+  }
+
+  /* .LandingPageContent .Cspot .videoWrapper {
+    margin-top: 21rem;
+  } */
+
+  .LandingPageContent p {
+    font-size: 1.8vw;
+  }
+
+  .LandingPageContent h1 {
+    font-size: 5.5vw;
+    line-height: 5vw;
+  }
+
+  .LandingPageContent .Espot h1 {
+    font-size: 3.5vw;
+    line-height: 5vw;
+  }
+
+  .LandingPageContent .Cspot section#popUp p {
+    font-size: 1.8vw;
+  }
+
+  .LandingPageContent .Cspot section#popUp p {
+    text-align: center;
+    width: 50%;
+    font-size: 1.8vw;
+    line-height: 1.2;
+  }
+
+  .LandingPageContent .Cspot p.smallText.mt-2 {
+    font-size: 1.2vw !important;
+  }
+
+  .LandingPageContent .Cspot .enter_box {
+    background-color: #FBE4E2;
+    position: relative;
+    height: 19rem;
+    /* background: #efefef; */
+  }
+}
+
+@media (max-width: 991px) {
+
+  .LandingPageContent .btn {
+    width: 24vw;
+  }
+
+  /* .LandingPageContent .Cspot .videoWrapper {
+    margin-top: 18rem;
+  } */
+
+  .LandingPageContent .Cspot p.smallText.mt-2 {
+    font-size: 1.4vw !important;
+  }
+
+  .LandingPageContent h3 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+
+  .mx-4 {
+    margin: 2rem auto !important;
+  }
+
+  .LandingPageContent .Cspot img.heading {
+    width: 61%;
+  }
+
+  .formboxes {
+    height: 4.8vw !important;
+  }
+
+  textarea.text.formboxes {
+    height: 18.2vw !important;
+  }
+
+  .LandingPageContent .small-img {
+    width: 102%;
+  }
+
+  .LandingPageContent .Cspot .enter_box {
+    height: 17rem;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .formboxes {
+    height: 9vw !important;
+    margin-left: 0rem !important
+  }
+
+  textarea.text.formboxes {
+    height: 23.2vw !important;
+  }
+
+
+  .new-height {
+    height: 12rem !important;
+  }
+
+  .LandingPageContent .Cspot p {
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 4vw;
+  }
+
+  .LandingPageContent .btn {
+    margin: auto;
+    text-decoration: none;
+    font-family: "Inter UI", sans-serif;
+    font-size: 12px;
+    padding: 14px 0;
+    width: 90%;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 0px;
+    margin-left: 0rem;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+
+  .LandingPageContent .mrp-btn-RED-bdr {
+
+    border: #000;
+    margin-bottom: 25px !important;
+    margin-top: 14px;
+    width: 90%;
+
+  }
+
+  .LandingPageContent .Cspot .enter_box img {
+    padding: 2rem 0;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+
+  .pt-5 {
+    padding-top: 0rem !important;
+  }
+
+  .LandingPageContent .BlockSlider .slick-slide {
+    padding: 15px;
+  }
+
+  /* .LandingPageContent .Cspot .videoWrapper {
+    margin-top: 18rem;
+  } */
+
+  .mt-2 {
+    margin-top: 2rem !important;
+  }
+
+  .mx-4 {
+    margin: 0rem auto !important;
+  }
+
+  .LandingPageContent .Cspot img.heading {
+    width: 98%;
+  }
+
+  .LandingPageContent p {
+    font-size: 6vw;
+  }
+
+
+  .LandingPageContent .heading img {
+    width: 55% !important;
+  }
+
+  .Right-side,
+  .left-side {
+    float: none !important;
+  }
+
+  .LandingPageContent .Cspot div#stage3 img {
+    width: 81%;
+  }
+
+  .LandingPageContent .Cspot section#popUp p {
+    width: 87%;
+    font-size: 3.8vw;
+    line-height: 1.2;
+  }
+
+  .LandingPageContent .Cspot section#popUp p {
+    text-align: center;
+    width: 87%;
+    font-size: 3.8vw;
+    line-height: 1.2;
+  }
+
+  .box4-height {
+    height: 93rem !important;
+  }
+
+  .mt-4 {
+    margin-top: 1rem !important;
+  }
+
+  .LandingPageContent .Cspot .heading_mobi {
+    width: 91%;
+    margin-top: 1rem;
+  }
+
+  .LandingPageContent .Cspot p.smallText.mt-2 {
+    font-size: 3vw !important;
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+
+  .LandingPageContent .Cspot .enter_box a.mrp-btn-RED-bdr.btn {
+
+    width: 65%;
+  }
+
+  .LandingPageContent .Cspot .videoWrapper {
+
+    margin-top: -5rem;
+  }
+
+  .LandingPageContent form .select2-container--default .select2-selection--single {
+    width: 100% !important;
+    height: 9vw !important;
+    margin-left: 0rem !important;
+  }
+
+  #box4 {
+
+    color: #000;
+
+  }
+}
+
+@media (max-width: 360px) {
+
+  .modal-footer {
+    padding: 0;
+    text-align: center;
+    border-top: none;
+    background-color: #fff;
+    width: 136.2%;
+    margin-left: -18.1%;
+    margin-bottom: -10%;
+  }
+
+  .LandingPageContent .Cspot p.smallText.mt-2 {
+    font-size: 2.9vw !important;
+    width: 100% !important;
+  }
+}

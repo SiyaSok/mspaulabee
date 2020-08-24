@@ -1,0 +1,683 @@
+ @charset "UTF-8";
+
+
+
+ /*FORM STYLING*/
+ .LandingPageContent span#select2-cd_GENDER-5n-container,
+ .LandingPageContent .formboxes {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: inherit;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    margin: 0.5rem auto;
+    background-color: #fff;
+ }
+
+ .LandingPageContent form input {
+    border: none !important;
+ }
+
+ .LandingPageContent .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0;
+    height: 0;
+    left: 50%;
+    margin-left: -88px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+ }
+
+ .LandingPageContent .optintype td {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px;
+ }
+
+ .LandingPageContent #bfcheck {
+    width: 18px;
+    height: 18px;
+    display: block;
+ }
+
+ .LandingPageContent .cantwait {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw !important;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+ }
+
+ .LandingPageContent .ctasec {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid white;
+    padding: 7px 16px;
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+ }
+
+ .LandingPageContent .blackfriday {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px !important;
+    line-height: 26px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 90%;
+    max-width: 1000px;
+ }
+
+
+
+ .LandingPageContent form .select2 {
+    margin: 0 auto !important;
+ }
+
+ .LandingPageContent form .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    margin: 2% 20%;
+    width: 99%;
+    height: 2.2vw;
+    margin-left: -6rem;
+    text-align: left;
+ }
+
+ .LandingPageContent input[type=radio] {
+    display: block !important;
+ }
+
+
+ .LandingPageContent .form-control {
+
+    border: none !important;
+
+ }
+
+
+ .LandingPageContent .LandingPageContent .left-side {
+    float: left;
+ }
+
+
+
+ .LandingPageContent .Right-side {
+    float: right;
+ }
+
+ .LandingPageContent button,
+ .LandingPageContent input,
+ .LandingPageContent optgroup,
+ .LandingPageContent select,
+ .LandingPageContent textarea {
+    margin: 0;
+    font: inherit;
+    color: #918f8e;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 2000px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 406px !important;
+       top: 18%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .bfsubmitter {
+       font-size: 18px !important;
+
+    }
+
+    .LandingPageContent .headsecond {
+       position: absolute;
+       width: 814px;
+       top: 94%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .dmform {
+       margin: 0 auto;
+       text-align: center;
+       width: 50%;
+    }
+
+    .LandingPageContent .formboxes {
+       width: 60%;
+       height: 1.5vw;
+       margin-left: 2rem;
+    }
+
+    .LandingPageContent textarea.text.formboxes {
+       width: 62%;
+       height: 5.2vw;
+       margin: 1% 20%;
+    }
+
+    .LandingPageContent form .select2-container--default .select2-selection--single {
+
+       height: 4rem;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+    .LandingPageContent .bfsubmitter {
+       margin: 40px auto 0 auto;
+       width: 440px;
+       padding: 15px;
+       background: transparent !important;
+       color: #000;
+       border: none;
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       transition: all .5s ease;
+       border: 1px solid #000;
+       margin: auto;
+       text-decoration: none;
+       font-family: "Inter UI", sans-serif;
+       font-size: 1.2rem;
+       padding: 6px 0;
+       width: 180px;
+       text-transform: uppercase;
+       font-weight: 400;
+       margin-top: 5px;
+       border-radius: 0px;
+       margin-left: 1rem;
+       -webkit-transition: all 0.5s ease-out;
+       -o-transition: all 0.5s ease-out;
+       transition: all 0.5s ease-out;
+       border: 1px solid #000 !important;
+    }
+
+
+ }
+
+ @media (max-width: 2000px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent textarea.text.formboxes {
+       width: 63%;
+       height: 6.2vw;
+       margin: 1% 20%;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 406px !important;
+       top: 18%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .headsecond {
+       position: absolute;
+       width: 814px;
+       top: 94%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .dmform {
+       margin: 0 auto;
+       text-align: center;
+       width: 60%;
+    }
+
+    .LandingPageContent .formboxes {
+       width: 60%;
+       height: 2.2vw;
+       margin-left: 2rem;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+    .LandingPageContent .bfsubmitter {
+       background: transparent;
+       font-size: 12px;
+       transition: all .5s ease;
+       border: 1px solid #000 !important;
+       padding: 6px 0;
+       color: #000;
+    }
+
+
+    .LandingPageContent .bfsubmitter:hover {
+       background: #000;
+       color: #ffffff;
+    }
+
+
+
+ }
+
+ @media (max-width: 1700px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 406px !important;
+       top: 18%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .dmform {
+       margin: 0 auto;
+       text-align: center;
+       width: 100%;
+    }
+
+    .LandingPageContent .formboxes {
+       width: 60%;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+
+
+ }
+
+ @media (max-width: 1600px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent form .select2-container--default .select2-selection--single {
+       height: 2.5vw;
+       background-color: #fff;
+       border: none;
+       border-radius: 0;
+       margin: 2% 20%;
+       width: 99%;
+       margin-left: -6rem;
+       text-align: left;
+    }
+
+    .LandingPageContent .select2-container--default .select2-selection--single .select2-selection__arrow b {
+
+       margin-left: -68px;
+       margin-top: -2px;
+       position: absolute;
+       top: 43%;
+       width: 0;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 406px !important;
+       top: 18%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .formboxes {
+       width: 60%;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+ }
+
+ @media (max-width: 1400px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .Cspot .videoWrapper {
+       position: relative;
+       padding-bottom: 56.25%;
+       padding-top: 25px;
+       height: 0;
+       margin-top: -4rem;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 406px !important;
+       top: 18%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .formboxes {
+       width: 60%;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+    .LandingPageContent form .select2-container--default .select2-selection--single {
+       background-color: #fff;
+       border: none;
+       border-radius: 0;
+       margin: 2% 20%;
+       width: 100% !important;
+       height: 3.1vw !important;
+       margin-left: -6rem !important;
+       text-align: left;
+    }
+
+
+ }
+
+ @media (max-width: 1200px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 406px !important;
+       top: 12%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .formboxes {
+       width: 60%;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+    .LandingPageContent form .select2-container--default .select2-selection--single {
+       width: 99% !important;
+       height: 3.9vw !important;
+       margin-left: -4.7rem !important;
+    }
+
+
+ }
+
+ @media (max-width: 991px) {
+    .LandingPageContent .deskdis {
+       display: block !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: none !important;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 284px !important;
+       top: 11%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .headsecond {
+       position: absolute;
+       width: 665px;
+       top: 93%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .formboxes {
+       width: 86%;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 18px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+    .LandingPageContent textarea.text.formboxes {
+       width: 90%;
+       margin: 1% 7%;
+    }
+
+    .LandingPageContent form .select2-container--default .select2-selection--single {
+       width: 109% !important;
+       height: 5vw !important;
+       margin-left: -0.7rem !important;
+    }
+
+    .LandingPageContent .select2-container--default .select2-selection--single .select2-selection__arrow b {
+
+       margin-left: -7px;
+
+    }
+
+
+
+ }
+
+ @media (max-width: 767px) {
+    .LandingPageContent .deskdis {
+       display: none !important;
+    }
+
+    .LandingPageContent .mobidis {
+       display: block !important;
+    }
+
+    .LandingPageContent .headmain {
+       position: absolute;
+       width: 46% !important;
+       top: 14%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent .headsecond {
+       position: absolute;
+       width: 80% !important;
+       top: 85%;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .LandingPageContent textarea.text.formboxes,
+    .LandingPageContent .formboxes {
+       width: 100%;
+    }
+
+    .LandingPageContent .formtext {
+       font-family: 'Roboto', sans-serif;
+       font-size: 16px;
+       padding-top: 10px;
+       max-width: 100%;
+    }
+
+    .LandingPageContent .bfsubmitter {
+       width: 100%;
+       padding: 15px;
+       background: #000 !important;
+       color: #fff;
+       border: none;
+       font-family: 'Roboto', sans-serif;
+       font-size: 16px;
+       transition: all .5s ease;
+    }
+
+
+    .LandingPageContent .bfsubmitter:hover {
+       background: black;
+       font-size: 12px;
+       transition: all .5s ease;
+       border: 1px solid #000 !important;
+       padding: 6px 0;
+       color: #fff;
+    }
+
+
+
+    .LandingPageContent .Cspot .enter_box {
+       height: 17rem;
+    }
+
+    .LandingPageContent form .select2 {
+       display: block;
+       outline: 0;
+       width: 300px;
+       min-width: 150px;
+       margin: 0 auto !important;
+    }
+
+    .LandingPageContent form .select2 {
+       width: 100% !important;
+    }
+
+    .LandingPageContent form .select2-container--default .select2-selection--single {
+       width: 100% !important;
+       height: 9vw !important;
+       margin-left: 0rem !important;
+    }
+
+ }
+
+ /*vaimo overrides*/
+ .vaimo-cms>[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+ }
+
+ .LandingPageContent #stage3 {
+    position: relative;
+    text-align: right;
+    margin-top: -1rem;
+ }
+
+
+
+ .landingPageContent img {
+    margin: auto;
+ }
+
+ .catalog-category-view .selected-products-head hr {
+    display: none;
+ }
+
+ .LandingPageContent .main-container {
+    display: none;
+ }
+
+ .LandingPageContent .catalog-category-view .vaimo-cms .widget-static-block {
+    margin-bottom: 0 !important;
+ }
+
+ .LandingPageContent .newsletter-wrapper {
+    margin-top: -1px !important;
+ }
+
+ @media (max-width: 375px) {
+
+    .box4-height {
+       height: 64rem !important;
+    }
+
+ }
+
+ @media (max-width: 320px) {
+
+    .box4-height {
+       height: 58rem !important;
+    }
+ }
